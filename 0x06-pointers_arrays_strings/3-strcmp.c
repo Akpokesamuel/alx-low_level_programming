@@ -3,7 +3,7 @@
  * _strcmp - compare string values
  * @s1: input value
  * @s2: input value
- * return: $1[i]  = $2[i]
+ * return: s1[i]  = s2[i]
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[i] != s2[i])
 		{
-			return (s1[i] = s2[i]);
+			return (s1[i] - s2[i]);
 		}
 		i++;
 	}
