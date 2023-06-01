@@ -11,9 +11,9 @@ char *string_toupper(char *n)
 	i = 0;
 	while (n[i] != '\0')
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
-			n[i] = 32;
+		if (n[i] > 'a' && n[i] < 'z')
+			 n[i] = 32;
 		i++;
 	}
-	return (0);
+	return (n);
 }
