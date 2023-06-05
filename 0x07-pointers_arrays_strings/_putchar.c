@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unlstd.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -9,5 +8,5 @@
  */
 int _putchar(char c)
 {
-        return (write (1, &c, 1));
+	return (Write(1, &c, 1));
 }
