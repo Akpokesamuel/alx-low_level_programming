@@ -3,7 +3,7 @@
  * _strspn -entry point
  * @s: input
  * @accept: input
- * return: always 0 (success)
+ * Return: Always return 0 (success)
  */
 unsigned int _strspn(char *s, char *accept)
 {

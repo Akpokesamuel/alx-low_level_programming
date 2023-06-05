@@ -3,7 +3,7 @@
  * _strchr - Entry piont
  * @s: input
  * @c: input
- * return: always 0 (success)
+ * Return: Always return 0 (success)
  */
 char *_strchr(char *s, char c)
 {
