@@ -3,8 +3,8 @@
 #include <stdbool.h>
 /**
 * wildcmp -compare strings
-* @s1: pointer to string
-* @s2:pointer to sting
+* @s1: -value of the first sting
+* @s2: -value of the second sting
 * Return: 0
 */
 
