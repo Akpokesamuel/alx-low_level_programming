@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * wildcmp -compare strings
-* @si: pointer to string
+* @s1: pointer to string
 * @s2:pointer to sting
 * Return: 0
 */
