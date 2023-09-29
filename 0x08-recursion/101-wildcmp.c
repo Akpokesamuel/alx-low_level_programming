@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+#include <stdbool.h>
 /**
 * wildcmp -compare strings
 * @s1: pointer to string
 * @s2:pointer to sting
 * Return: 0
 */
+
 int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0' && *s2 == '\0')
